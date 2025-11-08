@@ -1,0 +1,32 @@
+{
+  "name": "blagues-api-backend",
+  "version": "1.0.0",
+  "description": "Une API RESTful permettant de gérer et consulter des blagues.  ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "db:create": "node ./migrations/create-tables.js",
+    "db:seed": "node ./migrations/seed-tables.js",
+    "db:reset": "npm run db:create && npm run db:seed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LudivineLeLan/blagues-api-backend.git"
+  },
+  "author": "Ludivine Le Lan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LudivineLeLan/blagues-api-backend/issues"
+  },
+  "homepage": "https://github.com/LudivineLeLan/blagues-api-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "sequelize": "^6.37.7",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}
