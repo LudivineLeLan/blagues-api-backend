@@ -10,7 +10,7 @@ const options = {
       description: "API pour gérer les blagues",
     },
     servers: [
-      { url: "http://localhost:3000" }
+      { url: "https://blagues-api-backend.onrender.com" }
     ],
   },
   apis: ["./routers/joke.router.js"],
