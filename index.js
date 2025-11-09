@@ -18,6 +18,13 @@ app.use(apiRouter);
 
 setupSwagger(app);
 
+app.get("/", (req, res) => {
+  res.send(`
+    <h1>CARAMBAR & CO </h1>
+    <p>Bienvenue !</p>
+    <p><a href="/api-docs">Voir la documentation Swagger</a></p>
+  `);
+});
 
 app.listen(PORT, () => {
   console.log(`API launched on http://localhost:${PORT}`);

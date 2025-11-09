@@ -11,7 +11,7 @@ Développée avec **Node.js**, **Express**, **Sequelize**, et **SQLite**, et dé
 * Consulter toutes les blagues (GET)
 * Consulter une blague spécifique (GET /:id)
 * Consulter une blague aléatoire (GET /random)
-* Documentation interactive via **Swagger**
+* Documentation des routes via **Swagger**
 
 ---
 
@@ -39,7 +39,6 @@ npm install
 # 3. Créer un fichier .env
 # Exemple de contenu :
 # PORT=3000
-# DB_URL=sqlite:./database.sqlite
 
 # 4. Créer la base de données et les tables
 npm run db:create
@@ -64,7 +63,7 @@ npm start
 
 ## Documentation Swagger
 
-La documentation interactive est disponible via Swagger UI :
+La documentation est disponible via Swagger UI :
 
 ```
 http://localhost:3000/api-docs
@@ -97,4 +96,6 @@ database.sqlite  # base de données SQLite
 * [Repo Backend](https://github.com/LudivineLeLan/blagues-api-backend.git)
 * Swagger disponible sur `/api-docs`
 * Frontend : (à ajouter)
+* Déploiement sur Render : (à ajouter)
+
 
