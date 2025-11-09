@@ -31,7 +31,7 @@ Développée avec **Node.js**, **Express**, **Sequelize**, et **SQLite**, et dé
 ```bash
 # 1. Cloner le repo
 git clone https://github.com/LudivineLeLan/blagues-api-backend.git
-cd blagues-api
+cd blagues-api-backend
 
 # 2. Installer les dépendances
 npm install
@@ -65,17 +65,16 @@ npm start
 
 La documentation est disponible via Swagger UI :
 
-```
-http://localhost:3000/api-docs
-```
+https://blagues-api-backend.onrender.com/api-docs/
+
 
 ---
 
 ## Exemple Postman
 
-```markdown
-![Postman Test](images/postman.png)
-```
+
+![Postman Test](./images/postman.png)
+
 ---
 
 ## Structure du projet
@@ -94,8 +93,6 @@ database.sqlite  # base de données SQLite
 ## Liens
 
 * [Repo Backend](https://github.com/LudivineLeLan/blagues-api-backend.git)
-* Swagger disponible sur `/api-docs`
-* Frontend : (à ajouter)
-* Déploiement sur Render : (à ajouter)
-
-
+* [Documentation Swagger](https://blagues-api-backend.onrender.com/api-docs/)
+* [Repo Frontend](https://github.com/LudivineLeLan/blagues-api-frontend)
+* [Déploiement sur Render](https://blagues-api-backend.onrender.com)
