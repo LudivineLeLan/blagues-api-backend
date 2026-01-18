@@ -14,6 +14,10 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(cors());
 
+app.get('/health', (req, res) => {
+  res.status(200).send('OK');
+});
+
 app.use(apiRouter);
 
 setupSwagger(app);
